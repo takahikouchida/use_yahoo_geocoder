@@ -9,5 +9,5 @@
 
 - usage 
 
-  `php addressTocoodinate.php < hogehoge.csv > result.csv`
+  `php addressTocoodinate.php < test.csv > result.csv`
   
