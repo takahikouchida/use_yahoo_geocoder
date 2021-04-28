@@ -1,15 +1,13 @@
-# Yahoo!ジオコーダAPIを使い住所リストに座標を付与するスクリプト
+# Using the Google Maps Geocoding API 
 
-- 環境
+
+- Environment
   
- `PHP 7.2.2 で動作確認`
+  `PHP 7.2.2 >`
   
 
 
-- 使い方 
-
- CSVファイルを指定しaddressTocoodinate.phpを実行する
-
+- usage 
 
   `php addressTocoodinate.php < hogehoge.csv > result.csv`
   
