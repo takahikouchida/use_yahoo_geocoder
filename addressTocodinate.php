@@ -2,7 +2,6 @@
 $google_maps_api_key = "";
 $google_endpoint = "https://maps.googleapis.com/maps/api/geocode/json?";
 
-// 標準入力を一行ずつ配列に代入します
 while ($line = fgets(STDIN)) {
     $address = str_replace(array("\r\n", "\r", "\n"), '', $line);
     $params = http_build_query(array(
